@@ -19,6 +19,5 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "svg-sprite-loader": "^3.7.3",
   }
 }
