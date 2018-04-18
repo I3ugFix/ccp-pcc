@@ -1,0 +1,21 @@
+//Main Colors
+export const primary = '#ff6000';
+export const success = '#65ae17';
+export const danger = '#e00109';
+export const info = '#0383ea';
+export const cardBg ='#fff';
+
+//Background Body
+export const bodyBg = '#ebeced';
+
+//Text Colors
+export const textColor = '#666'; 
+
+export default {
+  primary,
+  success,
+  danger,
+  textColor,
+  cardBg,
+  bodyBg,
+}
