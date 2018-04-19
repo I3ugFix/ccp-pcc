@@ -5,9 +5,12 @@
   "dependencies": {
     "npm": "^5.8.0",
     "polished": "^1.9.2",
-    "react": "^16.3.1",
-    "react-dom": "^16.3.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-prop-types": "^0.4.0",
+    "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.4",
+    "semantic-ui-react": "^0.79.1",
     "styled-components": "^3.2.5",
     "styled-map": "^2.0.1",
     "theme-provider": "^1.0.8"
@@ -19,5 +22,16 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.3"
   }
 }
