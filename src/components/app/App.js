@@ -12,18 +12,31 @@ import ButtonsDemo from '../demos/ButtonsDemo';
 import Icon from '../icons/icon'
 
 injectGlobal`${normalize()}`;
+
 injectGlobal`${
   fontFace({
-    'fontFamily': 'Open Sans',
+    'fontFamily': 'Sans',
     'fontFilePath': '/fonts/OpenSans-Regular',
     fileFormats: ['ttf']
   }
   )}
+`;
+
+injectGlobal`${
+  fontFace({
+    'fontFamily': 'SansBold',
+    'fontFilePath': '/fonts/OpenSans-Bold',
+    fileFormats: ['ttf']
+  }
+  )}
   body {
-      font-family: 'Open Sans';
-      background: ${theme.colors.bodyBg};
-      color: ${theme.colors.textColor};
+    font-family: 'Sans';
+    background: ${theme.colors.bodyBg};
+    color: ${theme.colors.textColor};
+    b, strong {
+      font-family: 'SansBold';
     }
+  }
 `;
 
 const App = () => (
