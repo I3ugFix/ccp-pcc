@@ -3,8 +3,9 @@ import styled from 'styled-components';
 import styledMap from 'styled-map';
 import { darken,  setLightness } from 'polished';
 
-import theme from '../../themes/main-theme';
+import { px2rem } from '../../helpers/px2rem';
 
+import theme from '../../themes/main-theme';
 
 const hoverDarkColor = color => darken(0.15, color);
 
@@ -26,14 +27,18 @@ const STButton = styled.button`
 	margin:5px 8px 5px 0;
 	position: relative;
 
+	/**/
 	padding: ${styledMap({
 		lg:           '14px 20px',
 		lg_preloader: '14px 20px 14px 43px',
 		sm:           '4px 8px',
 		sm_preloader: '4px 8px 4px 40px',
-		preloader: 		'11px 16px 11px 40px',
-		default:      '11px 16px',
+		preloader:    		'11px 16px 11px 40px',
+		default:    '11px 16px',
+		//default:      `${px2rem(11)} ${px2rem(16)}`,
 	})};
+
+	//padding: ${px2rem(10)} ${px2rem(30)};
 
 	cursor :${styledMap({
 		disabled: 'not-allowed',
