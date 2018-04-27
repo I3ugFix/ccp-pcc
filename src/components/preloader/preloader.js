@@ -17,7 +17,7 @@ const PreloaderRotate = keyframes`
 const SpanPreloaderWrapper = styled.span`
     position: absolute ;
     top: 24% ;
-    left: -2% ;ç
+    left: -2% ;
 `;
 
 const SpanPreloaderSpinner = styled.span`
